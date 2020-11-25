@@ -1,0 +1,18 @@
+.info{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #383737;
+  padding: 4em 2em;
+  color: white;
+  margin: 0 -5em;
+  margin-top: 6em;
+}
+
+.info a{
+  color: rgb(148 143 156);
+}
+
+.info span{
+  display: inline-block;
+  padding: 2em;
+}

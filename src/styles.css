@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 0 5em;
+}
+*{
+  box-sizing: border-box;
+}
+.basic-container {
+  padding: 30px;
+}
+.version-info {
+  font-size: 8pt;
+  float: right;
+  margin: 8px;
+}
+
+.flex-display{
+  display: flex;
+}
+
+.heading1 {
+  text-align: center;
+  font-size: 2.5em !important;
+  margin-top:10px
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row{
+  padding: 0 !important;
+}
+
+.mat-toolbar{
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+
+.mat-card-header-text{
+  margin: 0 !important;
+}
+
+.pad{
+  margin: 0 5%;
+}
+
+.space-top{
+  margin-top: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.mat-card-actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
